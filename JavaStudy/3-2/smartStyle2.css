@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+	 div {
+		max-width: 150px;
+		width: 100%;
+		height: auto;
+	}
+	.green {
+		float: none;
+	}
+	.pink {
+		float: none;
+	}
+	.red {
+		float: none;
+	}
+	
+	
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	div {
+		max-width: 300px;
+		width: 100%;
+	}
+	.green {
+		width: 100px;
+	}
+	.content-left {
+		width: 125px;
+	}
+	.pink {
+		width: 75px;
+	}
+	.red {
+		width:200px;
+	}
+}
